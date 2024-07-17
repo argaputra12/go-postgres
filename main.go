@@ -29,6 +29,15 @@ func main() {
 	// nomor 7
 	router.HandleFunc("/employees/text-file", h.GetTextFile).Methods("GET")
 
+	// nomor	8
+	router.HandleFunc("/city", h.GetCity).Methods("GET")
+
+	// nomor 9
+	router.HandleFunc("/numbers", h.GetNumbers).Methods("GET")
+
+	// nomor 10
+	router.HandleFunc("/random", h.GetRandom).Methods("GET")
+
 	log.Println("Server started on: http://localhost:8080")
 	log.Fatal(http.ListenAndServe(":8080", router))
 
