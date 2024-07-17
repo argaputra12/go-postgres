@@ -1,3 +1,5 @@
+package migration
+
 var employees = []Employee{
 	{
 		FirstName:       "Bob",

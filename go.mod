@@ -1,4 +1,4 @@
-module golang-postgres
+module github.com/argaputra12/go-postgres
 
 go 1.22.5
 
