@@ -1,0 +1,1 @@
+{"earliest_employee":{"ID":1,"first_name":"Bob","last_name":"Smith","hire_date":"2009-06-20T07:00:00+07:00","termination_date":"2014-01-01T07:00:00+07:00","salary":10000},"latest_employee":{"ID":6,"first_name":"Frank","last_name":"Nguyen","hire_date":"2015-04-10T07:00:00+07:00","termination_date":"2015-05-01T07:00:00+07:00","salary":60000},"difference":2120}
